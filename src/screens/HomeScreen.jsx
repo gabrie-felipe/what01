@@ -9,6 +9,8 @@ export const HomeScreen = ({ navigation }) => {
                 onPress={() => navigation.navigate("Sobre")} />
 <Button title='Ir para Contato'
                 onPress={() => navigation.navigate("Contato")} />
+                 <Button title='Ir para Produto'
+                onPress={() => navigation.navigate("Produto")} />
         </View>
     );
 };
