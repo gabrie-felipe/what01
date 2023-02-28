@@ -1,10 +1,10 @@
 import { Text, View } from "react-native"
-
+import { styles } from "../utils/styles"
 
 export const SobreScreen =({navigation}) =>{
     return(
-        <View>
-            <Text>Sobre</Text>
+        <View  style={styles.container}>
+            <Text style={styles.texto}>Recuperar senha</Text>
             
         </View>
     )
