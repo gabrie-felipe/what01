@@ -11,6 +11,8 @@ export const HomeScreen = ({ navigation }) => {
                 onPress={() => navigation.navigate("Contato")} />
                  <Button title='Ir para Produto'
                 onPress={() => navigation.navigate("Produto")} />
+                 <Button title='Ir para Teste'
+                onPress={() => navigation.navigate("Teste")} />
         </View>
     );
 };

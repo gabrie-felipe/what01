@@ -26,11 +26,41 @@ export const styles = StyleSheet.create({
     fontSize: 27,
   },
   input: {
+    shadowColor: "rgba(0, 0, 0, 0.25)",
+    shadowOffset: { width: 0, height: 4 },
+    shadowOpacity: 0.5,
+    overflow:"hidden",
     height: 44,
     width: 341,
     margin: 12,
-    borderRadius: 15,
-    padding: 10,
-    backgroundColor: "white",
+    backgroundColor: "#ECECEC",
+    borderTopLeftRadius: 15,
+    borderTopRightRadius: 15,
+    borderBottomLeftRadius: 15,
+    borderBottomRightRadius: 15,
+    textDecorationLine: "none"
   },
+ button: {
+
+  height: 50,
+  width: 222,
+  backgroundColor: 'black',
+  color: 'white'
+ },
+ button2: {
+  alignItems: 'center',
+  justifyContent: 'center',
+  paddingVertical: 12,
+  paddingHorizontal: 32,
+  borderRadius: 4,
+  elevation: 3,
+  backgroundColor: 'black',
+},
+text2: {
+  fontSize: 16,
+  lineHeight: 21,
+  fontWeight: 'bold',
+  letterSpacing: 0.25,
+  color: 'white',
+},
 });
